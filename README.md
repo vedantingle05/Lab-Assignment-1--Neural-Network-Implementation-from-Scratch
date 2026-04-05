@@ -119,55 +119,6 @@ Index   True Label    Predicted    Confidence
 ─────────────────────────────────────────────
 Result: 10/10 correct ✅
 ```
-
----
-
-## ▶️ How to Run
-
-### Option A — VS Code
-```bash
-# Step 1: Install Python 3.11
-# Download: https://www.python.org/downloads/release/python-3119/
-
-# Step 2: Install dependencies
-py -3.11 -m pip install tensorflow numpy matplotlib
-
-# Step 3: Run
-py -3.11 neural_network_keras.py
-```
-
-### Option B — Google Colab
-1. Go to https://colab.research.google.com
-2. Upload `neural_network_keras.py`
-3. Run — TensorFlow is pre-installed ✅
-
----
-
-## 📦 Requirements
-
-```
-tensorflow>=2.10.0
-numpy>=1.23.0
-matplotlib>=3.5.0
-```
-
-Install all:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 📂 Files in this Repository
-
-| File | Description |
-|---|---|
-| `neural_network_keras.py` | Main Python code |
-| `README.md` | This file |
-| `requirements.txt` | Required libraries |
-
----
-
 ## 🔍 Key Observations
 
 1. Loss **decreases** consistently every epoch ✅
